@@ -13,7 +13,6 @@ jQuery(document).ready(function($) {
     function updateCounter(e) {
 	count += 1;
 	$('#count').text(`${count} clicks on the button`);
-	console.log('loaded')
     }
 
     _.debounce(updateCounter, 5);
