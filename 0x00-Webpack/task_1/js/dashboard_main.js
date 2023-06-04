@@ -9,7 +9,7 @@ jQuery(document).ready(function($) {
     $('<p>Copyright - Holberton School</p>').insertBefore('script');
 
     let count = 0;
-    function updateCounter(e) {
+    function updateCounter() {
 	count += 1;
 	$('#count').text(`${count} clicks on the button`);
     }
