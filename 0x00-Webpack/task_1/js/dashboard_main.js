@@ -1,5 +1,5 @@
 import * as jQuery from 'jquery';
-import { debounce } from 'lodash';
+import _ from 'lodash';
 
 jQuery(document).ready(function($) {
     $('<p>Holberton Dashboard</p>').insertBefore('script');
@@ -14,7 +14,7 @@ jQuery(document).ready(function($) {
 	$('#count').text(`${count} clicks on the button`);
     }
 
-    const debounced_fun = debounce(updateCounter);
+    const debounced_fun = _.debounce(updateCounter);
 
     $('button').click(debounced_fun);
 })
