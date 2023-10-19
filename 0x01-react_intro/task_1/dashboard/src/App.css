@@ -1,0 +1,31 @@
+.App {
+  font-size: 15pt;
+}
+
+.App-header {
+  display: flex;
+  align-items: center;
+  border-bottom: 4px solid red;
+}
+
+.App-header h1 {
+  color: rgb(224, 7, 7);
+}
+
+.App-body {
+  height: 50vh;
+  border-bottom: 4px solid red;
+}
+
+
+.App-body p {
+  font-weight: bold;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.App-footer p {
+  text-align: center;
+  font-size: 15pt;
+  font-style: italic;
+}
